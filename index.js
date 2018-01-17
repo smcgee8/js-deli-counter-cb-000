@@ -21,6 +21,6 @@ function currentLine(katzDeliLine) {
     for (var i = 0; i < katzDeliLine.length; i++) {
       message += `${i}. ${katzDeliLine[i]}, `;
     }
-    return message.slice(0, message.length - 1);
+    return message.slice(0, message.length - 2);
   }
 }
